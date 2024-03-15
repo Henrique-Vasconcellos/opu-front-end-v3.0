@@ -1,0 +1,573 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Fonte_Site';
+    src: url(../_fonts/Agency.TTF);
+}
+@font-face {
+    font-family: 'Fonte_Bison';
+    src: url(../_fonts/BISON.TTF);
+}
+@font-face {
+    font-family: 'TrashHand';
+    src: url(../_fonts/TrashHand.TTF);
+}
+
+/*Dica CSS   
+
+* = global
+# = id
+. = class
+tag {} = css na tag
+body {} formatação para tag <body>
+
+body.CLASS_nome - formatação da tag body com a classe de nome
+body#ID_nome - formatação da tag body com a ID nome
+
+Fim das dicas CSS*/
+
+
+
+.direita {
+    text-align: right;
+}
+
+.esquerda {
+    text-align: left;
+}
+
+.center {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ################## FORMATAÇÃO DO LAYOUT 2.0 ##################*/
+/* INICIO - Formatação do layout de todo site*/
+
+body {
+    background-image: url("../_interface/fundo.jpg");
+    /*background-color: #dddddd; /*não utilizado*/
+    font-family: Arial, sans-serif;
+    color: rgba(0, 0, 0, 1);
+    }
+
+div#interface_v2 {
+    width: 1280px; /*largura total da interface*/
+    background-color: #ffffff; /*cor da interface, dentro da div principal do site site*/
+    margin: -20px auto 0px auto; /*margem de fora da div principal*/     /*cima, direita, baixo, esquerda*/
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, .5); /*Cria uma sombra envolta no objeto lateral, vertical, espelhamento, cor*/
+    padding: 10px; /*margem de dentro da div principal*/ /*pode usar como o margim, ou nesse caso 10 px para todos os lados*/
+    
+    }
+
+div#dl-menu-v2 {
+    width: 80px;
+    height: 50px;
+    background-color: #dddddd;
+    border: 4px;
+    border-bottom: 3px red solid;
+    float: left;
+
+
+}
+div#local_nav_menu_v2 {
+    width: 1200px;
+    height: 50px;
+    background-color: #dddddd;
+    border: 4px;
+    border-bottom: 3px red solid;
+    float: right;
+
+
+}
+
+div#designer p {
+    width: 1280px;
+    text-align: right;
+    margin: 10px auto 0px auto;
+    margin-bottom: 20px;
+    padding: 0px;
+}
+
+p {
+    text-align: justify;
+    text-indent: 50px;
+}
+
+p.copyright {
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 10px;
+}
+
+a {
+    /*cursor:help;*/
+    color: red ;/* #606060*/
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* INICIO - Formatação do cabeçalho*/
+
+/* INICIO - Formatação do icone de patins*/
+header#cabecalho_v2 img#icone_patins {
+    position: absolute;/*fazer o icone de patins flutuar*/
+    left: 1180px; /*distancia lateral do patins*/
+    top: 40px;/*distancia vertical do patins*/
+    }
+
+header#cabecalho_v2 img#banner {
+    position: absolute; /*fazer o icone de patins flutuar*/
+    width: 28%;
+    left: 600px;/*distancia lateral do patins*/
+    top: 0px; /*distancia vertical do patins*/
+}
+header#cabecalho_v2 hgroup {
+    opacity: 0;
+}
+/* FIM - Formatação do icone de patins*/
+
+
+header#cabecalho_v2 {
+    border-bottom: 3px red solid; /*linha vermelha separa o cabeçalho - largura, cor, tipo da borda*/
+    height: 180px; /*altura do cabeçalho*/
+    background: url("../_interface/logotipo-peq.png") no-repeat 0px 20px;/* sem repetir a imagem, lateral e vertical*/
+    }
+    
+header#cabecalho_v2 h1 {
+    /*opacity: 0;*/
+    font-family: 'Fonte_Site', sans-serif;/*fonte letra cabeçalho opção 'TrashHand' e 'Fonte_Bison'*/ 
+    font-size: 30pt;/*tamanho letra cabeçalho*/
+    color: #606060;/*cor letra cabeçalho*/
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .6);/*discreta sombra na letra cabeçalho*/
+    padding: 0px; /*espaço interno*/
+    margin-bottom: 0px; /*espaço externo - margim de baixo*/
+}
+
+header#cabecalho_v2 h2 {
+    /*opacity: 0;*/
+    font-family: Arial sans-serif;
+    color: #888888;
+    font-size: 15pt;
+    padding: 0px;
+    margin-top: 0px;/*margim de cima*/ 
+}
+header#cabecalho_artigo_noticia_principal_v2 {
+    position: relative;
+}
+
+header#cabecalho_artigo_noticia_principal_v2 img#icone-favicon {
+    position: absolute;
+    left: -4px;
+    top: -10px;
+}
+/* FIM - Formatação do cabeçalho*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* INICIO - Formatação do menu*/
+/* INICIO - Menu Principal/*/
+
+nav#menu_v2 {
+    /*display: block/*; faz o menu flutuar pelo no site*/
+    
+    
+     
+}
+
+nav#menu_v2 ul {
+    list-style: none; /* tirar o marcador da lista*/
+    text-transform: uppercase; /* transformar em letras em MAIUSCULAS*/
+    position: absolute;/* faz com que o UL do menu seja colocado em qualquer parte -     necessita do menu em display bloc-*/
+    top: 197px;/*distancia vertical (original -20)do menu no topo do site*/
+    left: 350px; /*distancia lateral do menu no topo do site*/
+    background-color: #606060;/* cor pink de fundo*/
+    width: 1200px;
+    }
+
+nav#menu_v2 li {
+    display: inline-block;/* colocar um item do lado do outro*/
+    background-color: #ffffff; /* colocar cor #dddddd de fundo nos itens*/
+    padding: 6px; /* espaço dentro do item*/
+    margin: 2px;/* espaço fora do item*/
+    transition: background-color 1s; /*tempo de transição para o botão do menu mudar de cor (não disponivel em todos navegadores*/
+    }
+       
+nav#menu_v2 li:hover {
+    background-color: #ffffff;/* cor #606060 de fundo do botão do menu quando o mouse passa*/
+}
+
+nav#menu_v2 h1 {
+    display: none;/* faz o h1 do menu sumir*/
+}
+
+nav#menu_v2 a {
+    font-family: 'TrashHand','Fonte_Site','Fonte_Bison', Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    color: #000000; /* cor do link do menu*/
+    text-decoration: none; /* tirar sublinhado do link do menu*/
+    }
+    
+nav#menu_v2 a:hover {
+    color: red; /* mudar a cor do link do menu ao passar o mouse*/
+}
+/* FIM - Menu Principal/*/
+
+/* INICIO - Menu Login/*/
+nav#menu_login {
+    display: block;/* faz o menu flutuar pelo no site*/
+}
+nav#menu_login ul {
+    list-style: none;    /* tirar o marcador da lista*/
+    text-transform: uppercase;    /* transformar em letras em MAIUSCULAS*/
+    position: absolute;    /* faz com que o UL do menu seja colocado em qualquer parte -     necessita do menu em display bloc-*/
+    top: -20px;    /*distancia vertical do menu no topo do site*/
+    left: 1350px;    /*distancia lateral do menu no topo do site*/
+}
+nav#menu_login li {
+    display: inline-block;    /* colocar um item do lado do outro*/
+    background-color: red;    /* colocar cor #dddddd; de fundo nos itens*/
+    padding: 10px;    /* espaço dentro do item*/
+    margin: 2px;    /* espaço fora do item*/
+    transition: background-color 1s;    /*tempo de transição para o botão do menu mudar de cor (não disponivel em todos navegadores*/
+}
+nav#menu_login li:hover {
+    background-color: #606060;    /* cor de fundo do botão do menu quando o mouse passa*/
+}
+nav#menu_login h1 {
+    display: none;    /* faz o h1 do menu sumir*/
+}
+nav#menu_login a {
+    color: #ffffff;    /* cor #000000 do link do menu*/
+    text-decoration: none;    /* tirar sublinhado do link do menu*/
+}
+nav#menu_login a:hover {
+    color: #ffffff  ;
+    /* mudar a cor do link do menu ao passar o mouse*/
+}
+/* FIM - Menu Login/*/
+/* FIM - Formatação do menu*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*INICIO - Formatação das divisões semanticas do site*/
+
+section#corpo_v2 {
+    display: block;  /*ANTIGO SECTION CORPO - para todo bloco "block", podemos configurar os elementos de dentro para flutuar na DIR ou ESQ*/
+    width: 835px;  /*padrão 835*/
+    float: left;    /*faz o corpo flutuar no lado esquerdo do site*/
+    /*background-color: green;*/
+    border-right: 2px solid #606060;/*borda da section corpo, espessura, tipo, cor*/
+    padding-right: 10px;    /*especo do padding na direita*/
+/* padding-bottom: 10px;*/
+}
+
+section#corpo_v2_maior {
+    display: block;
+    /*ANTIGO SECTION CORPO - para todo bloco "block", podemos configurar os elementos de dentro para flutuar na DIR ou ESQ*/
+    width: 1000px;
+    float: left;
+    /*flutuar a esquerda*/
+    border-right: 2px solid #606060;
+    /*borda da section corpo, espessura, tipo, cor*/
+    padding-right: 10px;
+    /*especo do padding na direita*/
+    padding-bottom: 10px;
+}
+
+article#noticia_principal_v2 h2 {
+    font-size: 13pt;    /*titulos secundarios da seção*/
+    color: #606060;    /*cinza escuro*/
+    background-color: #dddddd;    /*cinza claro*/
+    padding: 5px 0px 5px 10px;
+    margin: 10px 0px 10px 0px;
+}
+
+article#noticia_secundaria h1 {
+    font-family: 'Fonte_Site', sans-serif;
+    font-size: 20pt;
+    color: black;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+article#noticia_secundaria p.urbinho1 {/*croft*/
+    font-family: 'TrashHand', sans-serif;/*Fonte_Bison'TrashHand' Fonte_Site*/
+    font-size: 20pt;
+    color: black;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+article#noticia_secundaria p.urbinho2 {
+    /*croft*/
+    font-family: 'Fonte_Site', sans-serif;
+    /*Fonte_Bison'TrashHand' Fonte_Site*/
+    font-size: 15pt;
+    color: black;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+article#noticia_secundaria h2 {
+    font-size: 13pt;
+    /*titulos secundarios da seção*/
+    color: #606060;
+    /*cinza escuro*/
+    background-color: #dddddd;
+    /*cinza claro*/
+    padding: 5px 0px 5px 10px;
+    margin: 10px 0px 10px 0px;
+}
+
+header#cabecalho_artigo_noticia_principal_v2 h1 {
+    font-family: 'Fonte_Site', sans-serif;
+    font-size: 20pt;
+    color: black;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+header#cabecalho_artigo_noticia_principal_v2 h2 {
+    font-size: 13pt;
+    color: #cecece;
+    background-color: #ffffff;
+    margin: 0px;
+}
+
+header#cabecalho_artigo_noticia_principal_v2 h3 {
+    font-size: 12px;
+    color: #606060;
+    padding-left: 35px
+}
+
+
+
+
+aside#lateral_v2 {
+    display: block;
+    width: 400px;
+    float: right; /*faz a lateral flutuar no lado esquerdo do site*/
+    background-color: #dddddd; /*COR DO ASIDE LATERAL;*/
+    padding: 10px;/**/
+    margin-top: 10px;/* TAMANHO da margem*/
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .5);/*discreta sombra*/
+}
+
+aside#lateral_v2 h1 {
+    font-family: 'Fonte_Site', sans-serif;
+    font-size: 20pt;
+    color: #606060;
+    margin-top: 0px; /*subir o aside*/
+}
+
+aside#lateral_v2 h2 {
+    background-color: #606060;
+    font-size: 13pt;
+    color: #ffffff;
+    padding: 5px;
+}
+
+aside#lateral_v2_maior {
+    display: block;
+    width: 235px;
+    float: right;
+    /*flutuar a direita*/
+    background-color: #dddddd;
+    padding: 10px;
+    /*top, direita, baixo, esquerda*/
+    margin-left: 10px;
+    margin-right: 1px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .5);
+}
+
+aside#lateral_v2_maior h1 {
+    font-family: 'FontUrban', sans-serif;
+    font-size: 20pt;
+    color: #606060;
+    margin-top: 0px;
+}
+
+aside#lateral_v2_maior h2 {
+    background-color: #606060;
+    font-size: 13pt;
+    color: #ffffff;
+    padding: 5px;
+}
+
+
+video#video_night_roller {
+    width: 400px;
+    margin-top: -15px;
+}
+
+
+
+
+
+footer#rodape {
+    clear: both; /*como ja tinha o corpo na esquerda e a lateral na direita, o "clear both" limpa toda a divisao de configuração */
+    border-top: 3px solid red;
+    /*border-bottom: 1px solid #606060; /*cor da linha de baixo*/
+    /*padding: 10px;
+    /*padding-bottom: 0px*/
+}
+
+footer#rodape p {
+	text-align: center; /*colocando todo o paragrafo do rodape centralizado*/
+}
+
+/* FIM - Formatação das divisões semanticas do site*/
+
+
+
+/* FIM - Formatação do layout de todo site*/
+/* ################## FIM - FORMATAÇÃO DO LAYOUT 2.0 ##################*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ################## FORMATAÇÃO DE IMAGENS ##################*/
+/*INICIO - Formatação de imagens com legendas*/
+
+/*INICIO - Foto Index*/
+figure.foto-legenda-index {
+    position: relative;
+    border: 8px solid red;
+    box-shadow: 1px 1px 4px black;/*sombra da imagem_horiz, vertical, espalhamento, cor*/
+    }
+    
+figure.foto-legenda-index img {
+    width: 100%;
+    height: 100%;}
+
+figure.foto-legenda-index figcaption {
+    opacity: 0;
+    position: absolute;/*absoluta em relação ao pai (FIGURE - figure.foto-legenda-evento {position: relative;)*/
+    top: 0px;
+    background-color: rgba(0, 0, 0, .3);/*fundo transparente da foto*/
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: opacity 1s;
+}
+figure.foto-legenda-index:hover figcaption {
+    opacity: 1;
+}
+/*FIM - Foto index*/
+/*INICIO - Foto Grupo*/   /*FIM - Foto Grupo*/
+
+/*FIM - Formatação de imagens com legendas*/
+/*################## FIM - FORMATAÇÃO DE IMAGENS ##################*/
