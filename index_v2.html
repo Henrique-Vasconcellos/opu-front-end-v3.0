@@ -1,5 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-br"> 
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--Verificar-->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>OPERAÇÃO URBAN</title>
+    <!--<link rel="stylesheet" href="assets/css/layout.css">-->
+    <link rel="stylesheet" href="_css/estilo_v2.css">
+    <style>
+
+    </style>
+</head>
+<script src="_js/funcao_v3.js"></script>
+
+<body>
+    <div id="interface_v2">
+        <header id="cabecalho_v2">
+            <hgroup>
+                <h1>Operação Urban - Eu Apoio</h1>
+                <h2>A união dos amigos da patinação</h2>
+            </hgroup>
+            <img id="banner" src="_interface/header_banner.png" alt="Operação Urban - 10 anos">
+            <img id="icone_patins" src="_interface/logotipo_patins.png" alt="Tipos de Patins">
+
+            <nav id="menu_v2">
+                <!--<h1>Menu Trocado</h1>
+                <ul>
+                    <li onmouseover="trocaBanner ('_img/index/banner/header-banner-nightroller.png')" onmouseout="trocaBanner ('_img/index/banner/header-banner-aniversario.png')"><a href="mapa_patinacao.html">Home</a></li>
+                    <li onmouseover="trocaBanner ('_img/index/banner/header-banner-nightroller.png')" onmouseout="trocaBanner ('_img/index/banner/header-banner-aniversario.png')"><a href="mapa_patinacao.html">Especificações</a></li>
+                    <li onmouseover="trocaBanner ('_img/index/banner/header-banner-nightroller.png')" onmouseout="trocaBanner ('_img/index/banner/header-banner-aniversario.png')"><a href="mapa_patinacao.html">Fotos e Lembranças</a></li>
+                    <li onmouseover="trocaBanner ('_img/index/banner/header-banner-nightroller.png')" onmouseout="trocaBanner ('_img/index/banner/header-banner-aniversario.png')"><a href="mapa_patinacao.html">Multimídia</a></li>
+                    <li onmouseover="trocaBanner ('_img/index/banner/header-banner-nightroller.png')" onmouseout="trocaBanner ('_img/index/banner/header-banner-aniversario.png')"><a href="mapa_patinacao.html">Fale Conosco</a></li>
+                    <li onmouseover="trocaBanner ('_img/index/banner/header-banner-nightroller.png')" onmouseout="trocaBanner ('_img/index/banner/header-banner-aniversario.png')"><a href="mapa_patinacao.html">Contato</a></li>
+                </ul>-->
+                <h1>Menu Principal</h1>
+                <ul>
+                    <li onmouseover="trocaBanner ('_img/index/banner/header-banner-aniversario.png')"
+                        onmouseout="trocaBanner ('_img/index/banner/header-banner-aniversario.png')"><a
+                            href="index.html">Home</a></li>
+                    <li onmouseover="trocaBanner ('_img/index/banner/header-banner-1.png')"
+                        onmouseout="trocaBanner ('_img/index/banner/header-banner-aniversario.png')"><a
+                            href="mapa_patinacao.html">O Projeto</a></li>
+                    <li onmouseover="trocaBanner ('_img/index/banner/header-banner-2.png')"
+                        onmouseout="trocaBanner ('_img/index/banner/header-banner-aniversario.png')"><a
+                            href="mapa_patinacao.html">Novidades</a></li>
+                    <li onmouseover="trocaBanner ('_img/index/banner/header-banner-3.png')"
+                        onmouseout="trocaBanner ('_img/index/banner/header-banner-aniversario.png')"><a
+                            href="mapa_patinacao.html">Encontros</a></li>
+                    <li onmouseover="trocaBanner ('_img/index/banner/header-banner-4.png')"
+                        onmouseout="trocaBanner ('_img/index/banner/header-banner-aniversario.png')"><a
+                            href="mapa_patinacao.html">Conectividade</a></li>
+                    <li onmouseover="trocaBanner ('_img/index/banner/header-banner-5.png')"
+                        onmouseout="trocaBanner ('_img/index/banner/header-banner-aniversario.png')"><a
+                            href="mapa_patinacao.html">Mapa da Patinação</a></li>
+                    <li onmouseover="trocaBanner ('_img/index/banner/header-banner-6.png')"
+                        onmouseout="trocaBanner ('_img/index/banner/header-banner-aniversario.png')"><a
+                            href="galeria.html">Galeria</a></li>
+                    <li onmouseover="trocaBanner ('_img/index/banner/header-banner-7.png')"
+                        onmouseout="trocaBanner ('_img/index/banner/header-banner-aniversario.png')"><a
+                            href="mapa_patinacao.html">Amigos</a></li>
+                    <li onmouseover="trocaBanner ('_img/index/banner/header-banner-8.png')"
+                        onmouseout="trocaBanner ('_img/index/banner/header-banner-aniversario.png')"><a
+                            href="mapa_patinacao.html">Bazar</a></li>
+                    <li onmouseover="trocaBanner ('_img/index/banner/header-banner-9.png')"
+                        onmouseout="trocaBanner ('_img/index/banner/header-banner-aniversario.png')"><a
+                            href="mapa_patinacao.html">Participe</a></li>
+                    <li onmouseover="trocaBanner ('_img/index/banner/header-banner-10.png')"
+                        onmouseout="trocaBanner ('_img/index/banner/header-banner-aniversario.png')"><a
+                            href="mapa_patinacao.html">Contato</a></li>
+                </ul>
+            </nav>
+            <nav id="menu_login">
+                <h1>Menu Login</h1>
+                <ul>
+                    <li><a href="">Log in</a></li>
+                    <li><a href="">Register</a></li>
+                </ul>
+            </nav>
+
+        </header>
+        <div id="dl-menu-v2"></div>
+        <div id="local_nav_menu_v2"></div>
+        <section id="corpo_v2"><!--INÍCIO SEÇÃO CORPO VERSÃO 2.0-->
+
+            <article id="noticia_principal_v2"><!--INÍCIO ARTIGO PRINCIPAL PRINCIPAL VERSÃO 2.0-->
+
+                <header id="cabecalho_artigo_noticia_principal_v2">
+                    <img id="icone-favicon" src="_interface/favicon.png" />
+                      <hgroup>
+                        <h3>Página Inicial <!--&gt; Página Inicial--></a></h3>
+                        <h1>Novidades para a Operação Urban em 2024</h1>
+                        <p>A pedidos dos patinadores e amigos voluntários, o <a href="projetos.html"> projeto</a> Urban estará retomando suas
+                            atividades em <strong class="red">2024</strong>.<br><br>
+                            Novos <strong class="red">encontros</strong> da patinação serão organizados, a campanha <strong
+                                class="red">#fotosozinha</strong> chegará em sua edição 6.0, o <a href="mapa_patinacao.html">mapa da
+                                patinação</a></strong> será atualizado e teremos também o <strong class="red">novo site</strong> finalizado,
+                            totalmente reformulado e com uma paginação mais atrativa e funcional.<br><br>
+                            Com o <a href="apoioeparceria.html">apoio e parceria</a> de nossos amigos e também dos seus grupos conectados,
+                            estaremos sempre patinando juntos.<br><br>
+                            Em breve mais notícias serão postadas. Aguardem!!!</p>
+                        <!--<h2>por Operação Urban</h2>-->
+                        <h3 class="direita">Atualizado em 12/Março/2024</h3>
+                    </hgroup>
+
+                </header>
+                <h2>Novo site no ar!</h2>
+                <p>A Operação Urban está comemorando os seus <a href="comemoracao_10_anos.html">10 anos</a> do
+                    projeto!<br> E como forma
+                    de presentear nossos amigos patinadores, nosso site está totalmente reformulado e funcional<br>Os
+                    patinadores
+                    gannharam um espaso no site para realizar o seu login, divulgarem seus grupos, enviarem fotos e
+                    divulgando seus
+                    encontros.<br>
+                    Um novo "<a href="mapa_patinacao.html">Mapa da Patinação</a>" está disponível e agora os patinadores
+                    poderão criar
+                    seus próprios "encontros" e mapear as novas "Operações" por todo o mapa. Confira"</p>
+                <figure class="foto-legenda-index">
+                    <img src="_interface/teste_glass.jpg" width="200" alt="">
+                    <figcaption>
+                        <h3>Novo site da Operação Urban</h3>
+                        <p>Em comemoração aos 10 anos da Operação Urban um novo site foi desenvolvido pelos amigos
+                            voluntários do
+                            projeto.</p>
+                    </figcaption>
+
+                </figure>
+                                <h2>Mapa da Patinação</h2>
+                                <p>Descubra os melhores lugares para patinar e conhecer, encontre os grupos e patinadores pelo mundo.
+                                </p>
+                                <nav id="centralizado">
+                                    <a href="ondepatinar.html" class="button hvr-float-shadow">Onde Patinar ?</a>
+                                    <a href="#" class="button hvr-float-shadow">América</a>
+                                    <a href="#" class="button hvr-float-shadow">África</a>
+                                    <a href="#" class="button hvr-float-shadow">Ásia</a>
+                                    <a href="#" class="button hvr-float-shadow">Europa</a>
+                                    <a href="#" class="button hvr-float-shadow">Oceania</a>
+                                    <a href="#" class="button hvr-float-shadow">Antártida</a>
+                                </nav>
+                                <figure class="foto-legenda-evento">
+                                    <a href="mapa_patinacao.html"><img src="_img/img_projeto/img_mapa/mundo-g-branco.png" />
+                                        <figcaption>
+                                            <h3>Mapa da patinação</h3>
+                                            <p>Acesse o mapa e fique por dentro da patinação em sua região.</p>
+                                        </figcaption>
+                                    </a>
+                                </figure>
+                
+                
+
+            </article><!--FIM ARTIGO PRINCIPAL PRINCIPAL VERSÃO 2.0-->
+
+            <article id="noticia_secundaria"><!--INICIO ARTIGO SECUNDARIO 2.0-->
+                <h2>Como andar de patins</h2>
+                <p>Antes de colocar os patins e sair patinando por aí, é preciso cuidar de sua segurança, treinar
+                    bastante e cuidar da
+                    sua saúde..</p>
+
+                <h2>Tipos de patins</h2>
+                <p>Antes de falar sobre os diferentes tipos de patins, é importante saber que existem modalidades
+                    específicas para
+                    diferentes objetivos e superfícies.</p>
+
+                <h2>As modalidades</h2>
+                <p>Você já sabe que existem diversos tipos de patins, um específico para cada estilo de patinação.
+                    Conheça agora as
+                    principais diferenças de cada modalidade dentro da patinação.</p>
+                <img src="_img/img_index/index_modalidade/modalidade_pqn.png">
+                <h2>Agenda e Eventos</h2>
+                <p>A programação de eventos no projeto é compartilhada e divulgada para todos os patinadores na <a
+                        href="https://chat.whatsapp.com/I8bUia1QImg6VgFAuzS7OP" target="_blank">sala nacional</a> de
+                    bate papo do <a href="https://chat.whatsapp.com/HoQNB3o5tFW2E98y972k66" target="_blank">Projeto
+                        Conectividade</a> no WhatsApp e
+                    também em todos os nossos canais de comunicação. A lista reúne os últimos eventos criados pelos
+                    amigos voluntários,
+                    pela Operação Urban ou pelos <a href="#">Grupos locais</a> conectados. Fique por dentro da
+                    <em>Programação de
+                        eventos</em> da patinação no Brasil.</p>
+                <a href="#"><img src="_img/img_calendario/evento_0000.png"></a>
+                <h2>Links Úteis</h2>
+                <a href="#"><img src="_img/img_index/index_link/link_calendario.png"></a>
+                <a href="#"><img src="_img/img_index/index_link/link_fotosozinha.png"></a>
+                <a href="https://chat.whatsapp.com/Jb4Gw8G0XUZGZPYrkNDolM" target="_blank"><img
+                        src="_img/img_index/index_link/link_classificados.png"></a>
+                <a href="https://chat.whatsapp.com/HoQNB3o5tFW2E98y972k66" target="_blank"><img
+                        src="_img/img_index/index_link/link_conectividade.png"></a>
 
 
+
+
+            </article><!--FIM ARTIGO SECUNDARIO VERSÃO 2.0-->
+
+        </section><!--FIM SEÇÃO CORPO VERSÃO 2.0-->
         <aside id="lateral_v2">
             <!--<div id="pesquisa"><!--INICIO PESQUISA-->
             <!--<img src="_img/localizador.png"/ class="lateral_menor">
@@ -15,7 +207,595 @@
                                     </form>
                   </div>
                   </div>-->
+            <h1>Fique por Dentro</h1> 
+            <h2>Night Roller</h2>
 
-            
+            <video id="video_night_roller" controls="controls" poster="_interface/media_night_roller.jpg">
+                <source src="_media/night-roller-5-edicao.mp4" type="video/mp4" />
+                <!--falta inserir conversoes, não ta pegando no safari-->
+                Desculpe, mas não foi possível carregar o video.
+            </video>
+
+            <!--<iframe width="400" height="224" src="https://www.youtube.com/embed/cF6_HtcTPnc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
+            <h2>Avisos</h2>
+            <p style="text-indent: 0px; font-size: 13px">
+                2024.02.09 - Iniciado a repaginação e modelagem do novo site.<br>
+                Acesse<a href="http://www.operacaourban.com.br/_antigo/index.php"> aqui</a> o layout do site antigo.<br>
+                Anunciada o início da campanha <a href="#">#fotosozinha</a> em sua 5ª edição.<br>
+                Envie as informações do seu grupo para o <a href="mapa_patinacao.html">Mapa da patinação</a>.<br>
+            </p>
+            <h2>Última operação adicionada</h2>
+            <div class="center">
+                <a href="operacao_rj_gamboa.html"><img src="_img/operacao/_logo/logo_gamboa.png" /></a>
+            </div>
+
+            <h2>Novos apoiadores no Projeto</h2>
+            <p>O grupo de patinação "XTREME IN LINE" foi adicionado ao Mapa da Patinação.<br><br>
+                Tendo como origem a cidade de Vila Velha no Estado do Espírito Santo na região Sudeste do Brasil, o
+                grupo começou
+                suas atividades por lá no ano de 2017.<br><br>
+                O grupo se reuni todas as quartas-feiras as 20:00 no Parque urbano do Cocal.
+            </p>
+            <figure class="foto-legenda-grupo"><!--foto-grupo-novo-->
+                <a href="grupo_0454_extremeinline.html">
+                    <img src="_img/grupo/_logo-grupo/grupo_454.jpg" />
+                    <figcaption>
+                        <h3>XTREME IN LINE</h3>
+                        <p>Vila Velha - ES</p>
+                        <!--<p>Fique por dentro da patinação local em sua cidade.</p>-->
+                    </figcaption>
+                </a>
+            </figure>
+
+            <h2>Onde Patinar?</h2>
+            <p><!--Novos lugares adicionados ao <a href="mapa_patinacao.html">Mapa da Patinação</a>.<br><br>-->
+                Conheça o <a href="parqueurbanodococal.html">Parque Urbano de Cocal - ES.</a></p>
+
+            <figure class="foto-legenda-grupo"><!--foto-grupo-novo-->
+                <a href="ondepatinar.html">
+                    <img src="_img/lugar/parque/parque_urbano_cocal/capa.png" />
+                    <figcaption>
+                        <h3>Onde patinar ?</h3>
+                        <p>Descubra os lugares já mapeados pelo projeto para patinar e conhecer em outras cidades.</p>
+                        <!--<p>Fique por dentro da patinação local em sua cidade.</p>-->
+                    </figcaption>
+                </a>
+            </figure>
+
+            <h2>Avisos</h2>
+            <h2>Sobre o Projeto Urban</h2>
+            <p>A Operação Urban é um projeto neutro e independente criado no final de 2013 pelo patinador Henrique
+                Vasconcellos, foi
+                idealizada com o objetivo de fazer a união de todos os amigos da patinação, assim como os grupos, as
+                equipes, lojas,
+                eventos, federações, atletas, entre outros. Independente de grupos ou modalidades que pertencemos, para
+                aonde quer
+                que você vá, ter sempre um amigo para patinar.</p>
+
+            <p>Um projeto neutro e independente que luta por seus próprios ideais, criando seus próprios encontros e
+                eventos
+                internamente e ajudando a divulgar e compartilhar as atividades dos grupos locais. Tudo isso para ajudar
+                a patinação
+                evoluir e crescer cada dia mais e agregar um novo patinador que busca a sua felicidade sobre rodas.</p>
+            <p>A principal meta no projeto é levar alguns amigos até a Europa para conhecer a patinação na França e
+                realizar a
+                Operação Urban - Paris, assim como chegar também ao continente africano, para então realizar o Urban da
+                Solidariedade na África.</p>
+
+            <h2>Novidades nas Redes Sociais</h2>
+            <p>A Operação Urban em conjunto com alguns amigos voluntários estará levando o evento <a href="#">Night
+                    Roller</a> para
+                outras cidades e Estados.</p>
+            <div class="center">
+                <img src="_interface/rede-social.png" usemap="#mapasocialgnd" />
+                <map name="mapasocialgnd">
+                    <area shape="rect" coords="11,8,79,75" href="https://www.facebook.com/operacaourban/"
+                        target="_blank" alt="Facebook">
+                    <area shape="rect" coords="98,8,164,71" href="https://www.instagram.com/operacaourban/"
+                        target="_blank" alt="Instagram">
+                    <area shape="rect" coords="185,6,251,73" href="https://www.youtube.com/@OperacaoUrban"
+                        target="_blank" alt="Youtube">
+                    <area shape="rect" coords="268,6,336,71" href="https://wa.me/5521982303428" target="_blank"
+                        alt="WhatsApp">
+                </map>
+            </div>
+            <iframe
+                src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Foperacaourban%2F&tabs=timeline&width=400&height=342&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+                width="400" height="342" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                allowTransparency="true" allow="encrypted-media"></iframe>
         </aside>
 
+
+        <footer id="rodape">
+            <marquee direction="left" onmouseover="stop()" onmouseout="start()" scrolldelay="90" truespeed>
+                <a href="operacaourban.php"><img src="_img/grupo/_logo-grupo/grupo_0.jpg" /></a>
+                <a href="powerinline.php"><img src="_img/grupo/_logo-grupo/grupo_1.jpg" /></a>
+                <a href="rollerzonanorterj.php"><img src="_img/grupo/_logo-grupo/grupo_2.jpg" /></a>
+                <a href="gangdospatins.php"><img src="_img/grupo/_logo-grupo/grupo_3.jpg" /></a>
+                <a href="fraldinhas.php"><img src="_img/grupo/_logo-grupo/grupo_4.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_5.jpg" /></a>
+                <a href="patinadoresdecabofrio.php"><img src="_img/grupo/_logo-grupo/grupo_6.jpg" /></a>
+                <a href="patinsniteroi.php"><img src="_img/grupo/_logo-grupo/grupo_7.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_8.jpg" /></a>
+                <a href="rollerrio.php"><img src="_img/grupo/_logo-grupo/grupo_9.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_10.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_11.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_12.jpg" /></a>
+                <a href="rollerplay.php"><img src="_img/grupo/_logo-grupo/grupo_13.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_14.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_15.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_16.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_17.jpg" /></a>
+                <a href="goias_inline.php"><img src="_img/grupo/_logo-grupo/grupo_18.jpg" /></a>
+                <a href="maraca_inline.php"><img src="_img/grupo/_logo-grupo/grupo_19.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_20.jpg" /></a>
+                <a href="lobos_rj.php"><img src="_img/grupo/_logo-grupo/grupo_21.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_22.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_23.jpg" /></a>
+                <a href="fhperj.php"><img src="_img/grupo/_logo-grupo/grupo_24.jpg" /></a>
+                <a href="jacairam.php"><img src="_img/grupo/_logo-grupo/grupo_25.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_26.jpg" /></a>
+                <a href="patinsmaceio.php"><img src="_img/grupo/_logo-grupo/grupo_27.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_28.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_29.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_30.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_31.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_32.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_33.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_34.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_35.jpg" /></a>
+                <a href="americanainline.php"><img src="_img/grupo/_logo-grupo/grupo_36.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_37.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_38.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_39.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_40.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_41.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_42.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_43.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_44.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_45.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_46.jpg" /></a>
+                <a href="crewinline.php"><img src="_img/grupo/_logo-grupo/grupo_47.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_48.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_49.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_50.jpg" /></a>
+                <a href="urbanosinline.php"><img src="_img/grupo/_logo-grupo/grupo_51.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_52.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_53.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_54.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_55.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_56.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_57.jpg" /></a>
+                <a href="rubemmuzzi.php"><img src="_img/grupo/_logo-grupo/grupo_58.jpg" /></a>
+                <a href="patinario.php"><img src="_img/grupo/_logo-grupo/grupo_59.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_60.jpg" /></a>
+                <a href="andorinhasinline.php"><img src="_img/grupo/_logo-grupo/grupo_61.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_62.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_63.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_64.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_65.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_66.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_67.jpg" /></a>
+                <a href="gentequepatina.php"><img src="_img/grupo/_logo-grupo/grupo_68.jpg" /></a>
+                <a href="operacaoleiseca.php"><img src="_img/grupo/_logo-grupo/grupo_69.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_70.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_71.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_72.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_73.jpg" /></a>
+                <a href="luluzinhasinline.php"><img src="_img/grupo/_logo-grupo/grupo_74.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_75.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_76.jpg" /></a>
+                <a href="patinspetropolis.php"><img src="_img/grupo/_logo-grupo/grupo_77.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_78.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_79.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_80.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_81.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_82.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_83.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_84.jpg" /></a>
+                <a href="mostra_multi_modalidades.php"><img src="_img/grupo/_logo-grupo/grupo_85.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_86.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_87.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_88.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_89.jpg" /></a>
+                <a href="festa_em_familia.php"><img src="_img/grupo/_logo-grupo/grupo_90.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_91.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_92.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_93.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_94.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_95.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_96.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_97.jpg" /></a>
+                <a href="cddpatina.php"><img src="_img/grupo/_logo-grupo/grupo_98.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_99.jpg" /></a>
+                <a href="patins_inline_muriae.php"><img src="_img/grupo/_logo-grupo/grupo_100.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_101.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_102.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_103.jpg" /></a>
+                <a href="rginline.php"><img src="_img/grupo/_logo-grupo/grupo_104.jpg" /></a>
+                <a href="toslalom.php"><img src="_img/grupo/_logo-grupo/grupo_105.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_106.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_107.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_108.jpg" /></a>
+                <a href="rollintime.php"><img src="_img/grupo/_logo-grupo/grupo_109.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_110.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_111.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_112.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_113.jpg" /></a>
+                <a href="legiaoinline.php"><img src="_img/grupo/_logo-grupo/grupo_114.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_115.jpg" /></a>
+                <a href="itanhaeminline.php"><img src="_img/grupo/_logo-grupo/grupo_116.jpg" /></a>
+                <a href="patinaurora.php"><img src="_img/grupo/_logo-grupo/grupo_117.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_119.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_120.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_121.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_122.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_123.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_124.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_125.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_126.jpg" /></a>
+                <a href="clube_dos_patins_rn.php"><img src="_img/grupo/_logo-grupo/grupo_127.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_129.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_130.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_131.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_133.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_137.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_139.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_140.jpg" /></a>
+                <a href="patinscg.php"><img src="_img/grupo/_logo-grupo/grupo_141.jpg" /></a>
+                <a href="centro_de_visitantes_monumento_estacio_de_sa.php"><img
+                        src="_img/grupo/_logo-grupo/grupo_142.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_144.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_145.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_146.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_147.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_148.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_149.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_150.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_151.jpg" /></a>
+                <a href="teatro_popular_oscar_niemeyer.php"><img src="_img/grupo/_logo-grupo/grupo_153.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_155.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_156.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_157.jpg" /></a>
+                <a href="rollerrecife.php"><img src="_img/grupo/_logo-grupo/grupo_158.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_159.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_160.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_161.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_162.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_163.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_164.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_165.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_166.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_167.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_168.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_170.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_171.jpg" /></a>
+                <a href="recbattle.php"><img src="_img/grupo/_logo-grupo/grupo_172.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_173.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_174.jpg" /></a>
+                <a href="centro_de_convivencia_padre_miguel.php"><img
+                        src="_img/grupo/_logo-grupo/grupo_175.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_176.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_177.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_178.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_179.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_180.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_181.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_182.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_183.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_184.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_185.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_186.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_187.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_188.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_189.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_190.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_191.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_192.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_193.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_194.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_195.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_196.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_197.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_198.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_199.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_200.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_201.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_202.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_203.jpg" /></a>
+                <a href="capitalspeed.php"><img src="_img/grupo/_logo-grupo/grupo_204.jpg" /></a>
+                <a href="conchitarollers.php"><img src="_img/grupo/_logo-grupo/grupo_205.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_206.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_207.jpg" /></a>
+                <a href="skate_park_sao_francisco.php"><img src="_img/grupo/_logo-grupo/grupo_208.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_209.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_210.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_211.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_212.jpg" /></a>
+                <a href="roller_popular.php"><img src="_img/grupo/_logo-grupo/grupo_213.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_214.jpg" /></a>
+                <a href="pessoasquepatinam.php"><img src="_img/grupo/_logo-grupo/grupo_215.jpg" /></a>
+                <a href="imperial_inline.php"><img src="_img/grupo/_logo-grupo/grupo_216.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_217.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_218.jpg" /></a>
+                <a href="cabrasdapeste.php"><img src="_img/grupo/_logo-grupo/grupo_219.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_220.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_221.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_222.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_223.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_224.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_225.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_226.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_227.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_228.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_229.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_230.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_231.jpg" /></a>
+                <a href="buddy_roller.php"><img src="_img/grupo/_logo-grupo/grupo_232.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_233.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_234.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_235.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_236.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_237.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_238.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_239.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_240.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_241.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_242.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_243.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_244.jpg" /></a>
+                <a href="jfpatins.php"><img src="_img/grupo/_logo-grupo/grupo_245.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_246.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_247.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_248.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_249.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_250.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_251.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_252.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_253.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_254.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_255.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_256.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_257.jpg" /></a>
+                <a href="nos_patinamos.php"><img src="_img/grupo/_logo-grupo/grupo_258.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_259.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_260.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_261.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_262.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_263.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_264.jpg" /></a>
+                <a href="mil_grau.php"><img src="_img/grupo/_logo-grupo/grupo_265.jpg" /></a>
+                <a href="monstros_do_asfalto.php"><img src="_img/grupo/_logo-grupo/grupo_266.jpg" /></a>
+                <a href="lapa_roller.php"><img src="_img/grupo/_logo-grupo/grupo_267.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_268.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_269.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_270.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_271.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_272.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_273.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_274.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_275.jpg" /></a>
+                <a href="centro_de_patinacao_taubate.php"><img src="_img/grupo/_logo-grupo/grupo_276.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_277.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_278.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_279.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_280.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_281.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_282.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_283.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_284.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_285.jpg" /></a>
+                <a href="vila_olimpica_do_encantado.php"><img src="_img/grupo/_logo-grupo/grupo_286.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_287.jpg" /></a>
+                <a href="baixada_inline.php"><img src="_img/grupo/_logo-grupo/grupo_288.jpg" /></a>
+                <a href="campeonato_patinacao_rio_de_janeiro.php"><img
+                        src="_img/grupo/_logo-grupo/grupo_289.jpg" /></a>
+                <a href="sugar_loathe.php"><img src="_img/grupo/_logo-grupo/grupo_290.jpg" /></a>
+                <a href="fitness_sobre_rodas.php"><img src="_img/grupo/_logo-grupo/grupo_291.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_292.jpg" /></a>
+                <a href="ohana_boards.php"><img src="_img/grupo/_logo-grupo/grupo_293.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_294.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_295.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_296.jpg" /></a>
+                <a href="blog_patinadora_pop.php"><img src="_img/grupo/_logo-grupo/grupo_297.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_298.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_299.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_300.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_301.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_302.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_303.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_304.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_305.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_306.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_307.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_308.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_309.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_310.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_311.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_312.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_313.jpg" /></a>
+                <a href="porto_velho_inline.php"><img src="_img/grupo/_logo-grupo/grupo_314.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_315.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_316.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_317.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_318.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_319.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_320.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_321.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_322.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_323.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_324.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_325.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_326.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_327.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_328.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_329.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_330.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_331.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_332.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_333.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_334.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_335.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_336.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_337.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_338.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_339.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_340.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_341.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_342.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_343.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_344.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_345.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_346.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_347.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_348.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_349.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_350.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_351.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_352.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_353.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_354.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_355.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_356.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_357.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_358.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_359.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_360.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_361.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_362.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_363.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_364.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_365.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_366.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_367.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_368.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_369.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_370.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_371.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_372.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_373.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_374.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_375.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_376.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_377.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_378.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_379.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_380.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_381.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_382.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_383.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_384.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_385.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_386.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_387.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_388.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_389.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_390.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_391.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_392.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_393.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_394.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_395.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_396.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_397.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_398.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_399.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_400.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_401.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_402.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_403.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_404.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_405.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_406.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_407.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_408.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_409.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_410.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_411.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_412.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_413.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_414.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_415.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_416.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_417.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_418.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_419.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_420.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_421.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_422.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_423.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_424.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_425.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_426.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_427.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_428.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_429.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_430.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_431.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_432.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_433.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_434.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_435.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_436.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_437.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_438.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_439.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_440.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_441.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_442.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_443.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_444.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_445.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_446.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_447.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_448.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_449.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_450.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_451.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_452.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_453.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_454.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_455.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_456.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_457.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_458.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_459.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_460.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_461.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_462.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_463.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_464.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_465.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_466.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_467.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_468.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_469.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_470.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_471.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_472.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_473.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_474.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_475.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_476.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_477.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_478.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_479.jpg" /></a>
+                <a href="oops.html"><img src="_img/grupo/_logo-grupo/grupo_480.jpg" /></a>
+            </marquee>
+        </footer>
+        <div >
+            <p class="copyright">Copyright &copy; 2014-2024 Operação Urban. Todos os direitos reservados.<br>
+                <a href="https://www.facebook.com/pg/operacaourban/photos/?ref=page_internal"
+                    target="_blank">Facebook</a> |
+                <a href="https://www.youtube.com/@OperacaoUrban" target="_blank">Youtube</a> |
+                <a href="https://www.instagram.com/operacaourban/" target="_blank">Instagram</a> |
+                <a href="https://wa.me/5521982303428" target="_blank">WhatsApp</a>
+            </p>
+        </div>
+    </div><!--div interface-->
+    <div id="designer">
+        <p><strong>Design </strong><a href="https://www.facebook.com/junior.vasconcellos.12"><strong>Henrique Vasconcellos</strong></a></p>
+    </div>
+</body>
+
+</html>
