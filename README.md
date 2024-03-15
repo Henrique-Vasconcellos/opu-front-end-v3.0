@@ -1,10 +1,23 @@
-# Site Operação Urban [(Versão 3.0)](https://www.figma.com/file/n2yT16d3J0vCKdW5TogGb9/OPU?type=design&node-id=7%3A749&mode=design&t=w7z9y7gZMAcY5HZU-1)
+# Operação Urban [(Versão 3.0)](https://www.figma.com/file/n2yT16d3J0vCKdW5TogGb9/OPU?type=design&node-id=7%3A749&mode=design&t=w7z9y7gZMAcY5HZU-1)
  
  Projeto criado para _reformular_, _estruturar_ e _atualizar_ o site da **Operação Urban** com novas tecnologias (Versão 3.0).<br><br>
- Está sendo desenvolvido pelos amigos **Hugo Leonardo** (https://github.com/hugoleonardodev) e **Henrique Vasconcellos** (https://github.com/Henrique-Vasconcellos).
+ Está sendo desenvolvido pelos amigos **Hugo Leonardo** (https://github.com/hugoleonardodev) e **Henrique Vasconcellos** (https://github.com/Henrique-Vasconcellos).<br>
+
+ FRONT: Projeto público<br>
+ BACK END: Projeto privado<br>
 
 OBJETIVOS E FASES do Projeto:<br>
 --------
+
+CONCLUÍDO:
+* Interface do front-end
+
+EM ANDAMENTO:
+* Estrutura do FrontEND (Henrique)
+* Estrutura do Back END (Hugo)
+
+PENDENTES E FASES:
+
 * Criar a nova estrutura mais atrativa e funcional para os usuários.
 * Criar o novo "Mapa da Patinação"
 * Implementar um "Robo" para possibilitar a conexão dos patinadores ao mapa via WhatsApp.
@@ -65,40 +78,3 @@ https://www.operacaourban.com.br/_antigo/index.php
 ![image](https://github.com/Henrique-Vasconcellos/opu-front-end/assets/159064990/8e1ce0d5-dec4-4657-b0b3-8385f408a2cf)
 
  -----
- 
- This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
